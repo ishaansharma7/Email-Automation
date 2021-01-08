@@ -2,10 +2,10 @@ import os
 import smtplib
 from email.message import EmailMessage
 
-email_id = 'travelshravel7@gmail.com'
-email_pass = 'India101'
+email_id = 'exampleMail1@gmail.com'
+email_pass = 'passwordHere'
 
-recipient_list = ['ishaansharma711@gmail.com', 'fornewchannel1234@gmail.com','travelshravel7@gmail.com']
+recipient_list = ['exampleMail2@gmail.com', 'exampleMail3@gmail.com','exampleMail4@gmail.com']
 
 msg = EmailMessage()
 msg['Subject'] = 'first mail using python'
